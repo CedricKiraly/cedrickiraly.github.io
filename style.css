@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5rem;
+    background: #38220f;
+}
+
+.box{
+    list-style: none;
+    border-radius: 1rem;
+}
+
+.boxes{
+    height:90vh;
+    width: 100%;
+    display: grid;
+    background: #634832;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(30,1fr);
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
+
+.textBox--one{
+    display: flex;
+    grid-row: 8/15;
+    grid-column: 5/2 ;
+    justify-content: center;
+    align-items: center;
+    background: #967259;
+    border-radius: 2rem;
+    padding: 15rem;
+    font-size: 2rem;
+    border: 4px solid black;
+}
+
+.textBox--two{
+    display: flex;
+    grid-row: 12/10;
+    grid-column: 6/8 ;
+    justify-content: center;
+    align-items: center;
+    background: #967259;
+    border-radius: 2rem;
+    padding: 15rem;
+    font-size: 2rem;
+    border: 4px solid black;
+}
+
+
+.info--two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul:hover{
+    border: 4px solid gray;
+}
+
+.logos:hover{
+    border-color: white;
+}
+
+.logos{
+    
+}
+
+.textBox--three{
+    display: flex;
+    grid-row: 8/15;
+    grid-column: 12/9 ;
+    justify-content: center;
+    align-items: center;
+    background: #967259;
+    border-radius: 2rem;
+    padding: 15rem;
+    font-size: 2rem;
+    border: 4px solid black;
+}
+
+
+
+
+
+
