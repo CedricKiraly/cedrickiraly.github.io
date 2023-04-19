@@ -37,10 +37,9 @@ body {
     grid-row: 8/15;
     grid-column: 5/2 ;
     justify-content: center;
-    align-items: center;
     background: #967259;
     border-radius: 2rem;
-    padding: 15rem;
+    padding: 5rem;
     font-size: 2rem;
     border: 4px outset gray;
 }
@@ -65,7 +64,6 @@ body {
     align-items: center;
 }
 
-
 .logos{
     
 }
@@ -75,10 +73,9 @@ body {
     grid-row: 8/15;
     grid-column: 12/9 ;
     justify-content: center;
-    align-items: center;
     background: #967259;
     border-radius: 2rem;
-    padding: 15rem;
+    padding: 5rem;
     font-size: 2rem;
     border: 4px outset gray;
 }
