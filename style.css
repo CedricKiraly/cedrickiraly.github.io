@@ -12,7 +12,45 @@ html{
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5rem;
-    background: #38220f;
+    background: #634832;
+}
+
+.navigation{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background: #967259;
+    border-radius: 2rem;
+    border: 4px outset gray
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #38220f;
+    font-weight: bold;
+    padding: 2rem;
+
+}
+
+nav ul li a:hover{
+    top: 20%;
 }
 
 .box{
@@ -34,24 +72,31 @@ body {
 
 .textBox--one{
     display: flex;
-    grid-row: 8/15;
-    grid-column: 5/2 ;
+    grid-row: 5/15;
+    grid-column: 5/1 ;
     justify-content: center;
     background: #967259;
     border-radius: 2rem;
-    padding: 5rem;
+    color: #38220f;
+    padding: 3rem;
     font-size: 2rem;
     border: 4px outset gray;
 }
 
+h2{
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
 .textBox--two{
     display: flex;
-    grid-row: 12/10;
-    grid-column: 6/8 ;
+    grid-row: 5/15;
+    grid-column: 11/13 ;
     justify-content: center;
     align-items: center;
     background: #967259;
     border-radius: 2rem;
+    color: #38220f;
     padding: 15rem;
     font-size: 2rem;
     border: 4px outset gray;
@@ -70,15 +115,20 @@ body {
 
 .textBox--three{
     display: flex;
-    grid-row: 8/15;
-    grid-column: 12/9 ;
+    grid-row: 30/18;
+    grid-column: 13/1 ;
     justify-content: center;
     background: #967259;
     border-radius: 2rem;
-    padding: 5rem;
+    color: #38220f;
+    padding: 3rem;
     font-size: 2rem;
     border: 4px outset gray;
+
 }
+
+
+
 
 
 
